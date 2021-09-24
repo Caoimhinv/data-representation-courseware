@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 
 <Library> 
-	<Catalogue=”TechnicalBooks”> 
+	<Catalogue subject="TechnicalBooks"> 
 		<ISBN>1982904348</ISBN> 
 		<Title>Mechanical Engineering Handbook: For The Engineers</Title> 
 		<Author>Navy Feroz</Author> 
-	</Catalogue > 
-	<Catalogue=”TechnicalBooks”> 
+	</Catalogue> 
+	<Catalogue subject="TechnicalBooks"> 
 		<ISBN> 1528709845 </ISBN> 
 		<Title>The Carpenter's and Joiner's Hand-Book</Title> 
 		<Author>F. Reinnel</Author> 
-	</Catalogue > 
-	<Catalogue=”CookeryBooks”> 
+	</Catalogue> 
+	<Catalogue subject="CookeryBooks"> 
 		<ISBN>0953535304</ISBN> 
 		<Title>The Café Paradiso Cookbook</Title> 
 		<Author>Denis Cotter</Author> 
 	</Catalogue> 
-	<Catalogue=”CookeryBooks”> 
+	<Catalogue subject="CookeryBooks"> 
 		<ISBN>0091874831</ISBN> 
 		<Title>Moro The Cookbook</Title> 
 		<Author>Sam and Sam Clark</Author> 
-	</Catalogue > 
-
+	</Catalogue> 
 </Library>
