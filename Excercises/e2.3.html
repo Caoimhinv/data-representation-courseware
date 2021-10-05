@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>2.1</title>
+    </head>
+    <body>
+        <input id = "name" type = "text" value = "Enter Name"/>
+        <br/>
+        <button onclick="buttonClicked()">click me</button><br/>
+        <div id="output">output will go here</div>
+    </body>
+    <script>
+        function buttonClicked(){
+        var output= document.getElementById("name").value
+        document.getElementById("output").innerText = output
+        }
+    </script>
+</html>
