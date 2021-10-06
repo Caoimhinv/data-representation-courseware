@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>View Cars</title>
+        <link rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+crossorigin="anonymous">
+
+    </head>
+    <body>
+        <h1>Cars</h1>
+        <div><button>Create</button></div>
+        <div>
+            <table class="table">
+                <tr>
+                    <th>Reg</th>
+                    <th>Make</th>
+                    <th>Model</th>
+                    <th>Price</th>
+                    <th>Update</th>
+                    <th>Delete</th>
+                </tr>
+                <tr>
+                    <td>191 Mo 123</td>
+                    <td>Ford</td>
+                    <td>Mondeo</td>
+                    <td>25,000</td>
+                    <td><button>update</button></td>
+                    <td><button>delete</button></td>
+                </tr>
+                <tr>
+                    <td>192 C 468</td>
+                    <td>Kia</td>
+                    <td>Niro</td>
+                    <td>41,000</td>
+                    <td><button>update</button></td>
+                    <td><button>delete</button></td>
+                </tr>
+                <tr>
+                    <td>08 C 21248</td>
+                    <td>Ford</td>
+                    <td>Focus</td>
+                    <td>5,000</td>
+                    <td><button>update</button></td>
+                    <td><button>delete</button></td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h2><span>Create a</span> <span>Update this</span> Car</h2> 
+            Reg <input type="text" name="reg"><br/>
+            Make <select name="make">
+                <option value="Ford">Ford</option>
+                <option value="Kia">Kia</option>
+                <option value="Nissan">Nissan</option>
+            </select><br/>
+            Model <input type="text" name="model"><br/>
+            Price <input type="number" name="price"><br/>
+            <span><button>Create</button></span>
+            <span><button>Update</button></span>
+        </div>
+    </body>
+</html>
